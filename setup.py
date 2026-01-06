@@ -16,10 +16,10 @@ def get_requirements(file_path: str)->List[str]:
     return requirements
         
 setup(
-name = 'Sudoko Solver',
+name = 'ML Project',
 version = '0.0.1',
-author = 'Aditya',
-author_email = 'adityajoshi408@gmail.com',
+author = 'Name',
+author_email = 'Email@',
 packages = find_packages(),
 install_requires = get_requirements('requirements.txt')
 )
